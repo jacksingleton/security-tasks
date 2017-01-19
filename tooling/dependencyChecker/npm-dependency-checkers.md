@@ -6,7 +6,7 @@ managed using npm are available due to publicly disclosed security
 vulnerabilities. These include:
 
 * Node Security Project nsp (free) https://github.com/nodesecurity/nsp
-* Snyk (commercial; also for Ruby) https://snyk.io/
+* Snyk (commercial; also for RubyGems) https://snyk.io/
 
 The team should evaluate these tools and choose one that is right for their
 needs.
@@ -35,3 +35,5 @@ There are two scenarios to regularly run the tool:
   inform the team.
 * When an error occurs running the dependency checking tool, then it should send
   an email to inform the team.
+
+It is recommended that the scheduled job be run at least daily.
