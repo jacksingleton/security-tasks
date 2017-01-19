@@ -20,3 +20,4 @@ Below are tasks organized by technical stack to introduce dependency checkers
 into your automated CI Pipeline.
 
 * Java, .NET: [OWASP Dependency-Check](owasp-dependency-check.md)
+* JavaScript (npm, Node.js): [npm dependency checkers](npm-dependency-checkers.md)

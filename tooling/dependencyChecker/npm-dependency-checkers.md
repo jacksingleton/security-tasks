@@ -1,11 +1,15 @@
-## Task: Add OWASP Dependency-Check into the CI pipeline
+## Task: Add an npm dependency checker into the CI pipeline
 **Description:**
 
-OWASP Dependency-Check is a tool that attempts to detect when updates are
-available for third party dependencies (libraries, frameworks, etc) used in
-your application due to publicly disclosed security vulnerabilities. This
-tool is applicable for projects or major components that are written in Java or
-.NET.
+Several tools exist to attempt to detect when updates for JavaScript packages
+managed using npm are available due to publicly disclosed security
+vulnerabilities. These include:
+
+* Node Security Project nsp (free) https://github.com/nodesecurity/nsp
+* Snyk (commercial; also for Ruby) https://snyk.io/
+
+The team should evaluate these tools and choose one that is right for their
+needs.
 
 The tool should be configured to email the development team when updates are
 found due to security vulnerabilities. The team can then investigate the
@@ -20,7 +24,7 @@ There are two scenarios to regularly run the tool:
   updated but the deployed version has not, or when the application is no longer
   being actively maintained.
 
-**Acceptance Criteria:**
+**Acceptance criteria:**
 
 * When a check-in is made to the revision control system, then the tool should
   be run against the dependency manifest for the branch the check-in was made
@@ -31,5 +35,3 @@ There are two scenarios to regularly run the tool:
   inform the team.
 * When an error occurs running the dependency checking tool, then it should send
   an email to inform the team.
-
-It is recommended that the scheduled job be run at least daily.
