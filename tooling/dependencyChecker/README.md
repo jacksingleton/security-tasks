@@ -6,7 +6,7 @@
   your application due to publicly disclosed security vulnerabilities.
 
 ## Why is it needed?
-* Up to 90% of many applications consist of third party components.
+* Up to 90% of many applications are comprised of third party components.
 * Applications often inadvertently introduce vulnerabilities by failing to
   update components in a timely manner or by pulling in outdated components with
   vulnerabilities.
