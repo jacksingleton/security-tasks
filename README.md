@@ -8,4 +8,5 @@ This is an early stage resource that will be added to regularly.
 
 ## Resources
 
+* [Secret Management](tooling/secretManagement/README.md)
 * [Dependency Checkers for the Automated Pipeline](tooling/dependencyChecker/README.md)
