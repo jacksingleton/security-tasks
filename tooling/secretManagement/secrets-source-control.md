@@ -20,5 +20,8 @@ hosting sites and accidentally leaking their AWS keys or similar secrets.
 
 **Acceptance criteria:**
 
-* When a check-in is made to revision control system, then the tool should be
-  run against the changes before they are pushed a remote repository.
+* When a check-in has been made to the revision control system, then the tool
+  should be run against the changes to validate them before they can be pushed a
+  remote repository.
+* When a check-in containing potentially sensitive information is identified,
+  then the tool should stop the change from occurring and alert the user.
