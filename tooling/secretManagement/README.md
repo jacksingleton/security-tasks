@@ -3,7 +3,7 @@
 ## What is it?
 * Secrets such as passwords, credentials, access tokens, certificates, and other
   confidential information are something we can't allow to fall into the wrong
-  hands. A secret management tool makes it possible to manage these kind of
+  hands. A secret management tool makes it possible to manage these kinds of
   secrets safely.
 
 ## Why is it needed?
@@ -19,7 +19,9 @@
 More than one tool may be needed if there is a need to manage secrets for both
 team members and applications. Security needs to be useable and a secret manager
 intended for use by applications automatically deployed in a container may not
-be the best choice for human users.
+be the best choice for human users. In addition, we can use tools to help reduce
+the risk of committing sensitive information to source control.
 
 * Choose a secret management tool for use by the team
 * Choose a secret management tool for use by the applications
+* [Choose a tool to help keep secrets out of source control](secrets-source-control.md)
