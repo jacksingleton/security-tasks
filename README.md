@@ -10,3 +10,4 @@ This is an early stage resource that will be added to regularly.
 
 * [Secret Management](tooling/secretManagement/README.md)
 * [Dependency Checkers for the Automated Pipeline](tooling/dependencyChecker/README.md)
+* [Web App Bootstrapping](webapps/README.md)
